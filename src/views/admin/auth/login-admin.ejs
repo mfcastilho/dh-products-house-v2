@@ -47,7 +47,7 @@
                   <input type="text" class="form-control" id="email-login" name="email" placeholder="example@mail.com" value="<%= locals.old ? old.email : ""  %>">
                   
                 </div>
-                
+                <!-- Se houver erros lançamos a mensagem-->
                 <% if(locals.errors && errors.email){ %>
                   <div>
                     <p style="color: red;font-size: 12px;">
