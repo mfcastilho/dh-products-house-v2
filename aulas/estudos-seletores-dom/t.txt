@@ -1,2 +1,0 @@
-Criar o arquivo main.js no caminho: assets/js
-Vincular o arquivo main.js no html

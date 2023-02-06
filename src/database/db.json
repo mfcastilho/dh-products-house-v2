@@ -1,0 +1,302 @@
+{
+  "users": [
+    {
+      "id": "a64fe7f2-11f7-4409-bfe5-d4eebb478235",
+      "name": "Cássio Oliveira",
+      "email": "cassio@gmail.com",
+      "password": "123456",
+      "isAdmin": true
+    },
+    {
+      "id": "bdee6afa-7c0f-41f5-c154-b2886284717f",
+      "name": "Lucas",
+      "email": "lucas@gmail.com",
+      "password": "123456",
+      "isAdmin": false
+    },
+    {
+      "id": "b64fe7f2-11f7-4409-bfe5-d2ffaa794148",
+      "name": "Dr. Bill Jenkins",
+      "email": "jules99@yahoo.com",
+      "password": "$2a$10$z5xXKGECJH7ZLzt1VThSCel16geaEmk0DoA8beI7.5DytEJW53pu6",
+      "isAdmin": false
+    },
+    {
+      "id": "adee6afa-7c0f-41f5-b265-a1997395828e",
+      "name": "Ron Dibbert",
+      "email": "roderick_anderson@hotmail.com",
+      "password": "$2a$10$mhmr9cPNcLWg7ND2C8vAsezOHAAobHqqm5IbtG.4FXOWDJio2pjHW",
+      "isAdmin": false
+    },
+    {
+      "id": "22a59dc4-fbee-454c-b1b3-e77179d24210",
+      "name": "Dr. Vera Kuhn V",
+      "email": "aric25@gmail.com",
+      "password": "$2a$10$p4Qv2ZaFu92L6k0.yjwbfu6KzW9MYyLixWhMMCZF12PIVnU3xNhqe",
+      "isAdmin": false
+    },
+    {
+      "id": "6d02bd44-08a9-412f-bd89-798c094b4a80",
+      "name": "Fannie Heidenreich",
+      "email": "damion51@hotmail.com",
+      "password": "$2a$10$XjKhkjQ1.gUTVcrW4kVw8eu6bYfB9s44blGAwH7t8LFjeme8LusmO",
+      "isAdmin": false
+    },
+    {
+      "id": "3c85709d-0118-4e40-91f2-19998a690674",
+      "name": "Gordon Hand",
+      "email": "beth_upton@hotmail.com",
+      "password": "$2a$10$zyyL0zmO9jMp8k1E1Z9j4OJ8UHghp.gFKsFe/jIYo4rIRl8XTpZv.",
+      "isAdmin": false
+    },
+    {
+      "id": "0ba0efc4-f738-479c-a402-82fbad75f2f2",
+      "name": "Floyd Koch",
+      "email": "annamae_haley69@gmail.com",
+      "password": "$2a$10$Lf6U4qY1lscx1Pb3KdUAbOVgbLyb4hWnDeNUVkLFLm1PXGd5Ma2.C",
+      "isAdmin": false
+    },
+    {
+      "id": "5dd2e637-e369-4c5c-a9d2-ed07eb824480",
+      "name": "Terri Blick",
+      "email": "russ_schaefer91@gmail.com",
+      "password": "$2a$10$QGJ0H7cR3.uEvL5gkhCY0u6JHMYkpGzUU7oiiBpisA2kj3D9EZN/K",
+      "isAdmin": false
+    },
+    {
+      "id": "bf102864-50c4-4d02-b3a4-538b4dbcc9c0",
+      "name": "Mr. Ian Roberts",
+      "email": "samanta_emard@yahoo.com",
+      "password": "$2a$10$LgfQmhCEaV63DijQOyTD..O9tgWlyWiAGdtgaNWsSch6n3AyWn52q",
+      "isAdmin": false
+    },
+    {
+      "id": "f4c8cc2c-2b98-42d5-afd8-4bfa07bf4007",
+      "name": "Leslie Larkin",
+      "email": "malcolm.reichel67@yahoo.com",
+      "password": "$2a$10$O8v5XnOxUoILiEdphgBP0e1wFRIxPc5lq6IjOukY0R4z.WFIvQyKC",
+      "isAdmin": false
+    },
+    {
+      "id": "5b849fc3-3ed0-46d3-8944-934784741706",
+      "name": "Jonathan Glover",
+      "email": "edythe93@yahoo.com",
+      "password": "$2a$10$hHhPciwRyGpNgNm68NegxO1IcyJTpreD9ijs.d0tVVv3br37K/cp2",
+      "isAdmin": false
+    },
+    {
+      "id": "0283fdd7-2acd-44f7-be52-5a926d1a1d10",
+      "name": "Lula Schuppe",
+      "email": "jules.dubuque@gmail.com",
+      "password": "$2a$10$5HtuQ.Fgk4I.z2mDyitv5.eh2dNtwTyVu8j7wX0uzHB480NwmWK7m",
+      "isAdmin": false
+    },
+    {
+      "id": "df41f9c2-3790-45e0-842f-49ea0e4df7c2",
+      "name": "Sonia Koelpin II",
+      "email": "henriette_bogan@hotmail.com",
+      "password": "$2a$10$j6Pg4UV1136GVSrEOOSfQeLZMUAR3mjgAOV39SoiH6NIjPj0I4k4K",
+      "isAdmin": false
+    },
+    {
+      "id": "b879e250-fcdd-4646-95f4-320e93725291",
+      "name": "Ms. Juana Fisher",
+      "email": "elsie7@yahoo.com",
+      "password": "$2a$10$mVYjKP0FrFbgv3sMpKn9r.ZOHPiqFxYcdXrNmmX62VQcp63ShicOa",
+      "isAdmin": false
+    },
+    {
+      "id": "154cb304-473e-4aa5-94e3-21bd19772cd3",
+      "name": "Alex Swaniawski",
+      "email": "dorcas17@hotmail.com",
+      "password": "$2a$10$soGmHc16n5x1al43erg9y.8YmuNeB1u8r2ywvretnnaL4YVeLggTW",
+      "isAdmin": false
+    },
+    {
+      "id": "ea202a1a-2c78-4646-8949-0c6b656717c6",
+      "name": "Archie Crooks",
+      "email": "lee29@yahoo.com",
+      "password": "$2a$10$xlm8CUZ9oEhxibeAllkNuu9YGlAvJWvFTK6600CE00abuke4ehNoK",
+      "isAdmin": false
+    },
+    {
+      "id": "f28501a6-989f-485c-8ed7-283b24ad2f88",
+      "name": "Mrs. Caleb Beahan",
+      "email": "roderick_heller27@hotmail.com",
+      "password": "$2a$10$Rz7RdHUW0pmbqg3zlqCgc.S1cqhqwyKrEX0TUHdJlci2Zx/5c2F9.",
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "id": "6bc59d1a-e36f-425b-b0ad-e212862988fc",
+      "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "price": "R$ 109,95",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "bab62061-d268-4f16-8d9d-083ca5b5875d",
+      "name": "Mens Casual Premium Slim Fit T-Shirts ",
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "price": "R$ 22,30",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "6c0304c2-cd93-4e79-b057-84d42966d319",
+      "name": "Mens Cotton Jacket",
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "price": "R$ 55,99",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "7c704676-0e05-4353-ab20-6e4564093895",
+      "name": "Mens Casual Slim Fit",
+      "price": "R$ 109,45",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "active": "on",
+      "stock": "on",
+      "description": "Linda camisa Fit"
+    },
+    {
+      "id": "b30d2d26-0c71-4d5c-a462-d0582481bf86",
+      "name": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "price": "R$ 695,00",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "fed72efa-af57-457a-89fa-31a53a9da69f",
+      "name": "Solid Gold Petite Micropave ",
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "price": "R$ 168,00",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "689953ee-7983-48bd-9d16-84e48c203562",
+      "name": "White Gold Plated Princess",
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "price": "R$ 9,99",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "fb19f929-d8ec-4da2-89a8-15a5c583e6e8",
+      "name": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "price": "R$ 10,99",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "2452c52e-6366-4b55-be97-2f7c64451bc9",
+      "name": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "price": "R$ 64,00",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "6b262ff0-794b-4124-aed7-70280745098e",
+      "name": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "price": "R$ 109,00",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "d3b7f5a2-4ba6-41e5-97c4-2b9a3cc9a0d4",
+      "name": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "price": "R$ 109,00",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "67012f82-d5d6-429b-8175-58ea2ee121dc",
+      "name": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "price": "R$ 114,00",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "73310669-9526-4d93-bebb-020fc8809985",
+      "name": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "price": "R$ 599,00",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "75d4b38f-835f-4f0b-ba12-fe8b27fe38be",
+      "name": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "price": "R$ 999,99",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "0648075c-73c9-46e1-9958-c1f67ddb2a9c",
+      "name": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "price": "R$ 56,99",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "b41a2f13-1503-4083-a352-cde52485fc7a",
+      "name": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "price": "R$ 29,95",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "active": true,
+      "stock": true
+    },
+    {
+      "id": "227b5d26-9ca0-48aa-bc26-2e0ef03871ca",
+      "name": "Camisa Flamengo Jogo 3 Adidas 2022",
+      "price": "R$ 299.99",
+      "image": "https://d2r9epyceweg5n.cloudfront.net/stores/002/322/390/products/camisa-flamengo-third-011-730c743523ad022adb16650090386597-640-0.jpeg",
+      "active": "on",
+      "stock": "on",
+      "description": "A Nação Rubro-Negra é o centro da narrativa do novo uniforme. Assim como nas camisas I e II, a nova camisa III traz o movimento das arquibancadas dos mais de 42 milhões de torcedores em seus elementos únicos de design.\r\n\r\nNas clássicas cores do Mengão, o manto ganha detalhes em preto na gola redonda e nas mangas. O escudo CRF é bordado em branco ao lado do logo da adidas, que também recebe destaque nos ombros da camisa com as três listras no mesmo tom. Para completar e valorizar a importância da garra e apoio dos torcedores nas conquistas e trajetória do clube, a camisa ganha um badge especial na parte inferior direita com a mensagem “A Maior Paixão do Mundo” em tons de preto e vermelho.\r\n\r\nFeito 100% de materiais reciclados, este produto representa apenas uma de nossas soluções para ajudar a acabar com o lixo plástico.\r\n\r\nINFORMAÇÕES DO PRODUTO:\r\nNome: Camisa Flamengo Jogo 3 Adidas 2022\r\nMarca: Adidas\r\nGênero: Masculino\r\nComposição: Poliéster\r\nGarantia: Contra defeito de fabricação\r\nModelagem padrão\r\nGola careca canelada\r\nMalha dupla 100% poliéster reciclado\r\nTecido Aeroready para remoção do suor\r\nPainéis em mesh nas laterais e sob os braços\r\nPunhos canelados\r\nEscudo bordado do CR Flamengo\r\n\r\nMedidas Aproximadas (Comprimento x Largura)\r\nPP – 73 cm x 44 cm\r\nP – 74cm x 48 cm\r\nM – 77 cm x 51 cm\r\nG – 75 cm x 55,5 cm\r\nGG – 77,5 cm x 61,5 cm\r\n2GG – 79,5 cm x 66 cm\r\n3GG – 83 cm x 71,5 cm"
+    },
+    {
+      "id": "6748544e-669e-4a3f-8e4f-48a2fd8c4198",
+      "name": "camisa",
+      "price": "R$ 100",
+      "image": "/images/1671338252639_product_camisa.jpeg",
+      "active": "on",
+      "description": "abc"
+    },
+    {
+      "id": "53d496c7-df5e-41e2-931a-dc977040f102",
+      "name": "Cadeira Gamer DX Racer",
+      "price": "R$ 978,45",
+      "image": "",
+      "active": "on",
+      "stock": "on",
+      "description": "Linda cadeira"
+    }
+  ]
+}
