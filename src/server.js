@@ -15,6 +15,7 @@
 //===importações===
 const express = require("express");
 const methodOverride = require("method-override");
+const cookies = require("cookie-parser");
 
 
 // const multer = require("multer");
@@ -47,6 +48,8 @@ server.set("view engine", "ejs");
 
 //Setando para o express o caminho da pasta views
 server.set("views", path.resolve("src", "views"));
+
+server.use(cookies());
 
 server.use(express.json());
 server.use(express.urlencoded({ extended: false}));

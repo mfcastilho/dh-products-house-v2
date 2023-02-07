@@ -44,7 +44,11 @@ const AdminController = {
 
     console.log(req.body);
     const {email, password} = req.body;
-    
+
+
+    if(req.body.login_admin){
+      res.cookie("adminEmail", req.body.login_admin, {maxAge:(1000 * 60) * 30});
+    }
 
     const userFound = users.find(user=> user.email === email);
 

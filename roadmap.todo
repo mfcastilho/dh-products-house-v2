@@ -5,52 +5,52 @@ Roadmap aula:
     Na aula de hoje iremos aprender como utilizar o template engine do EJS, para realizar a comunicação do front-end com o back-end e deixar as páginas dinâmicas de acordo com o resultado do back-end:
     
     1- Para conseguirmos alcançar o objetivo da aula de hoje, precisaremos mudar um pouco a estrutura do projeto, para isso será necessário:
-      ☐ Exercício: Dentro da pasta src, criar a pasta: database
-      ☐ Exercício: Dentro da pasta src, criar a pasta: views
-      ☐ Exercício: Dentro da pasta utils, inserir o script que foi enviado: generateFakerCommerceDatabase.js
+      ✔ Exercício: Dentro da pasta src, criar a pasta: database @done(23-02-07 02:09)
+      ✔ Exercício: Dentro da pasta src, criar a pasta: views @done(23-02-07 02:09)
+      ✔ Exercício: Dentro da pasta utils, inserir o script que foi enviado: generateFakerCommerceDatabase.js @done(23-02-07 02:09)
     
       1.1- Para o script funcionar, será necessário instalar as seguintes bibliotecas:
-        ☐ Demonstração: bcryptjs (npm i bcryptjs)
-        ☐ Demonstração: node-fetch (npm i node-fetch@2)
-        ☐ Demonstração: UUID (npm i uuid)
-        ☐ Demonstração: Faker, está deverá ser instalada em modo de desenvolvimento (npm install @faker-js/faker -D)
+        ✔ Demonstração: bcryptjs (npm i bcryptjs) @done(23-02-07 02:09)
+        ✔ Demonstração: node-fetch (npm i node-fetch@2) @done(23-02-07 02:09)
+        ✔ Demonstração: UUID (npm i uuid) @done(23-02-07 02:09)
+        ✔ Demonstração: Faker, está deverá ser instalada em modo de desenvolvimento (npm install @faker-js/faker -D) @done(23-02-07 02:09)
         
         1.2- Gerar o 'banco de dados':
-          ☐ Demonstração: Executar o script que está na pasta utils > generateFakerCommerceDatabase.js
+          ✔ Demonstração: Executar o script que está na pasta utils > generateFakerCommerceDatabase.js @done(23-02-07 02:09)
           **Obs: EXECUTAR O SCRIPT JUNTO COM O PROFESSOR**
       
     2 - Práticas EJS - Componentização: 
-      ☐ Demonstração: Instalar e configurar o ejs
-      ☐ Demonstração: Configurar pasta de arquivos estáticos (simular erro para eles entenderem)
-      ☐ Demonstração: Alterar arquivos da extensão HTML para EJS
-      ☐ Demonstração: Criar rotas e controllers para renderizar os arquivos.
-        ☐ Explicar como ficará a mudança criando a camada de rotas e como inserir no entry point da aplicação.
-        ☐ Criar a rota que irá exibir a página inicial para demonstração.
+      ✔ Demonstração: Instalar e configurar o ejs @done(23-02-07 02:09)
+      ✔ Demonstração: Configurar pasta de arquivos estáticos (simular erro para eles entenderem) @done(23-02-07 02:09)
+      ✔ Demonstração: Alterar arquivos da extensão HTML para EJS @done(23-02-07 02:09)
+      ✔ Demonstração: Criar rotas e controllers para renderizar os arquivos. @done(23-02-07 02:09)
+        ✔ Explicar como ficará a mudança criando a camada de rotas e como inserir no entry point da aplicação. @done(23-02-07 02:09)
+        ✔ Criar a rota que irá exibir a página inicial para demonstração. @done(23-02-07 02:09)
       
         2.1 - Exercício EJS - Criação de Rotas:
           Criar rotas para renderizar as seguintes views:
-            ☐ Exercício: Cadastro
-            ☐ Exercício: Login
-            ☐ Exercício: Produto
-    
-      ☐ Demonstração: Componentizar o Header e inserir na página inicial
-        ☐ Demonstração: Simular erros que podem ocorrer
+            ✔ Exercício: Cadastro @done(23-02-07 02:09)
+            ✔ Exercício: Login @done(23-02-07 02:09)
+            ✔ Exercício: Produto @done(23-02-07 02:09)
+    ✔ @done(23-02-07 02:09)
+      ✔ Demonstração: Componentizar o Header e inserir na página inicial @done(23-02-07 02:09)
+        ✔ Demonstração: Simular erros que podem ocorrer @done(23-02-07 02:09)
       
       2.2 - Exercício EJS - Componentização:
-        ☐ Exercício: Inserir o componente do Header nas demais páginas do projeto
-        ☐ Exercício: Componentizar o footer e inserir nas demais páginas
-    
-      ☐ Demonstração: Explicar como alternar entre as páginas através do Link (agora será chamando as rotas)
+        ✔ Exercício: Inserir o componente do Header nas demais páginas do projeto @done(23-02-07 02:09)
+        ✔ Exercício: Componentizar o footer e inserir nas demais páginas @done(23-02-07 02:09)
+    ✔ @done(23-02-07 02:09)
+      ✔ Demonstração: Explicar como alternar entre as páginas através do Link (agora será chamando as rotas) @done(23-02-07 02:09)
     
     
     3 - Práticas EJS - Deixando uma página dinâmica:
-      ☐ Exemplo: Deixar a página inicial dinâmica para renderizar os dado que o back-end envia do banco de dados.
+      ✔ Exemplo: Deixar a página inicial dinâmica para renderizar os dado que o back-end envia do banco de dados. @done(23-02-07 02:09)
     
       3.1 - Exercícios deixando uma página dinâmica:
         Neste exercício queremos deixar a view produto.ejs dinâmica, ou seja, quando o cliente clicar em algum produto da página inicial, ele deve ser redirecionado para esta view e nela deve conter a informações de determinado produto. Para conseguir realizar este exercício, será necessário:
-        ☐ Exercício: Criar/modificar a rota para está view
-          *Obs: Para deixar uma rota dinâmica, o que devemos insirar nela?
-        ☐ Exercício: Criar a lógica no controller para devolver os dados do produto solicitado pelo parâmetro da rota 
-        ☐ Exercício: Deixar a view dinâmica de acordo com os dados recebidos do back-end
+        ✔ Exercício: Criar/modificar a rota para está view @done(23-02-07 02:09)
+          ✔ *Obs: Para deixar uma rota dinâmica, o que devemos insirar nela? @done(23-02-07 02:09)
+        ✔ Exercício: Criar a lógica no controller para devolver os dados do produto solicitado pelo parâmetro da rota @done(23-02-07 02:09)
+        ✔ Exercício: Deixar a view dinâmica de acordo com os dados recebidos do back-end @done(23-02-07 02:09)
     
     
