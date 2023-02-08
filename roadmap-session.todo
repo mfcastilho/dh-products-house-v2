@@ -18,12 +18,12 @@ Roadmap aula:
 
   Atividade 2 - Login:
     Nesta atividade, iremos realizar o login de usuários cadastrado no banco de dados, para isso será necessário:
-      ☐ No arquivo authRouter, criar a rota do tipo POST para enviar os dados necessários para logar um  usuário.
+      ✔ No arquivo authRouter, criar a rota do tipo POST para enviar os dados necessários para logar um  usuário. @done(23-02-08 18:48)
 
-      ☐ No AuthController, criar o método login, este método deve:
-        ☐ Capturar os dados para logar um usuário
+      ✔ No AuthController, criar o método login, este método deve: @started(23-02-08 18:48) @done(23-02-08 19:19) @lasted(31m14s)
+        ✔ Capturar os dados para logar um usuário @started(23-02-08 18:48) @done(23-02-08 19:19) @lasted(31m14s)
 
-        ☐ Verificar se o usuário tem cadastrado no banco de dados, utilizando o model.
+        ✔ Verificar se o usuário tem cadastrado no banco de dados, utilizando o model. @done(23-02-08 19:22)
 
         ☐ Verificar se a senha que foi digitada no input está de acordo com a senha que foi cadastrada no banco de dados.
 

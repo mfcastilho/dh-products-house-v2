@@ -53,13 +53,19 @@
 
     <main class="container">
         <section class="form-login">
-            <form class="w-75 mx-auto" action="/admin/login" method="POST" enctype="multipart/form-data">
+            <form class="w-75 mx-auto" action="/login" method="POST">
                 <h1 class="text-center mb-3">Login</h1>
 
                 <div class="mb-3">
                   <label for="email-login" class="form-label">Email</label>
                   <input type="email" class="form-control" name="email" id="email-login" placeholder="example@mail.com">
                 </div>
+
+                <% if(locals.errors && errors.email){ %>
+                    <div>
+                        <p style="color: red;"><%= errors.email.msg %> </p>
+                    </div>
+                <% } %> 
 
                 <div class="mb-3">
                   <label for="password-login" class="form-label">Senha</label>
@@ -68,7 +74,7 @@
 
                 <div class="mb-3 form-check d-flex justify-content-between flex-wrap">
                     <div class="mb-2">
-                        <input type="checkbox" class="form-check-input" id="auto-login">
+                        <input type="checkbox" class="form-check-input" name="keep_connected" id="auto-login">
                         <label class="form-check-label" for="auto-login">Manter conectado?</label>
                     </div>
 

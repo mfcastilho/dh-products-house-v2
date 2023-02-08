@@ -29,6 +29,25 @@ const AuthController = {
 
     return res.redirect("/login");
 
+  },
+  login:(req, res)=>{
+
+    const {email, password} = req.body;
+
+    const userFound = UserModel.findOne(email);
+
+    if(!userFound){
+      
+      res.render("auth/login.ejs", {
+        errors:{
+          email:{
+            msg:"Usuário não encontrado"
+          }
+        }
+      })
+    }
+
+   
   }
 }
 
