@@ -2,9 +2,9 @@ const database = require("../database/db.json");
 const fs = require("fs");
 const path = require("path");
 const {v4:makeId} = require("uuid");
-const { use } = require("express/lib/application");
 
-const pathDataBse = path.resolve("src", "databse", "db.json");
+
+const pathDataBase = path.resolve("src", "database", "db.json");
 
 
 const UserModel = {
@@ -12,6 +12,8 @@ const UserModel = {
 
     const users = database.users;
     const userFound = users.find(user => user.email == userEmail);
+
+    console.log("Found? "+userFound)
     
     return userFound;
   },
@@ -27,7 +29,7 @@ const UserModel = {
 
     database.users.push(newUser);
     const dbJSON = JSON.stringify(database);
-    fs.writeFileSync(pathDataBse, dbJSON);
+    fs.writeFileSync(pathDataBase, dbJSON);
   }
 }
 

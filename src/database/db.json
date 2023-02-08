@@ -125,6 +125,13 @@
       "email": "roderick_heller27@hotmail.com",
       "password": "$2a$10$Rz7RdHUW0pmbqg3zlqCgc.S1cqhqwyKrEX0TUHdJlci2Zx/5c2F9.",
       "isAdmin": false
+    },
+    {
+      "id": "199d3944-d941-4703-922c-90b4a9a29954",
+      "name": "Frederico Castilho ",
+      "email": "fredericocastilho@hotmail.com",
+      "password": "$2b$10$yTNE/0CPxqZ9aARCEuc04uflcivFFXzwMHcV5G7UKZu1jHo0zWZ7W",
+      "isAdmin": false
     }
   ],
   "products": [

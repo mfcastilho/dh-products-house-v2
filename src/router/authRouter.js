@@ -3,9 +3,11 @@ const router = express.Router();
 
 const AuthController = require("../controllers/AuthController.js");
 
-router.get("/cadastro", AuthController.showCadastro)
+router.get("/cadastro", AuthController.showCadastro);
+router.post("/cadastro", AuthController.store);
 
 router.get("/login", AuthController.showLogin);
+
 
 
 module.exports = router;

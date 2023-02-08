@@ -9,7 +9,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <script src="/js/cadastro.js" defer></script>
+    <!-- <script src="/js/cadastro.js" defer></script> -->
 
     <title>Cadastro</title>
 </head>
@@ -20,7 +20,7 @@
 
     <main class="container">
         <section class="form-register">
-            <form class="w-75 mx-auto" action="/cadastro"  method="POST" enctype="multipart/form-data">
+            <form class="w-75 mx-auto" action="/cadastro"  method="POST">
                 <div class="loading">
                     <div class="d-flex justify-content-center">
                         <div class="spinner-border" role="status">
@@ -33,58 +33,58 @@
 
                 <div class="mb-3">
                     <label for="name-register" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="name-register" placeholder="Insira o seu nome completo">
+                    <input type="text" class="form-control" name="name" id="name-register" placeholder="Insira o seu nome completo">
                 </div>
 
                 <div class="mb-3">
                   <label for="email-register" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email-register" placeholder="example@mail.com">
+                  <input type="email" class="form-control" name="email" id="email-register" placeholder="example@mail.com">
                 </div>
 
                 <div class="mb-3">
                     <label for="cep-register" class="form-label">Cep</label>
-                    <input type="text" class="form-control" id="cep-register" placeholder="86027000">
+                    <input type="text" class="form-control" name="cep" id="cep-register" placeholder="86027000">
                 </div>
 
                 <div class="mb-3">
                     <label for="state-register" class="form-label">Estado</label>
-                    <input type="text" class="form-control" id="state-register" placeholder="PR">
+                    <input type="text" class="form-control" name="state" id="state-register" placeholder="PR">
                 </div>
 
                 <div class="mb-3">
                     <label for="city-register" class="form-label">Cidade</label>
-                    <input type="text" class="form-control" id="city-register" placeholder="Londrina">
+                    <input type="text" class="form-control" name="city" id="city-register" placeholder="Londrina">
                 </div>
 
                 <div class="mb-3">
                     <label for="street-register" class="form-label">Rua</label>
-                    <input type="text" class="form-control" id="street-register" placeholder="Insira a sua rua">
+                    <input type="text" class="form-control" name="street" id="street-register" placeholder="Insira a sua rua">
                 </div>
 
                 <div class="mb-3">
                     <label for="address-number-register" class="form-label">Número</label>
-                    <input type="number" class="form-control" id="address-number-register" placeholder="123">
+                    <input type="number" class="form-control" name="address_number" id="address-number-register" placeholder="123">
                 </div>
 
                 <div class="mb-3">
                     <label for="neighborhood-register" class="form-label">Bairro</label>
-                    <input type="text" class="form-control" id="neighborhood-register" placeholder="Bairro Exemplo">
+                    <input type="text" class="form-control" name="neighborhood" id="neighborhood-register" placeholder="Bairro Exemplo">
                 </div>
 
                 <div class="mb-3">
                     <label for="telphone-register" class="form-label">Telefone (WhatsApp)</label>
-                    <input type="tel" class="form-control" id="telphone-register" placeholder="43912345678">
+                    <input type="tel" class="form-control" name="tel" id="telphone-register" placeholder="43912345678">
                 </div>
 
 
                 <div class="mb-3">
                   <label for="password-register" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="password-register" placeholder="********">
+                  <input type="password" class="form-control" name="password" id="password-register" placeholder="********">
                 </div>
 
                 <div class="mb-3 form-check d-flex justify-content-between flex-wrap">
                     <div class="mb-2">
-                        <input type="checkbox" class="form-check-input" id="news-register">
+                        <input type="checkbox" class="form-check-input" name="receive_news" id="news-register">
                         <label class="form-check-label" for="news-register">Deseja receber as novidades?</label>
                     </div>
 

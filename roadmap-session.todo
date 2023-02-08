@@ -9,7 +9,7 @@ Roadmap aula:
           ✔ findOne: Deve receber o email como parâmetro e retornar o objeto do usuário que for igual ao e-mail @done(23-02-08 11:26)
           ✔ create: Este método deve receber um objeto como parâmetro e criar um novo usuário no nosso banco de dados. Lembre-se de criar o id, fique a vontade para utilizar a biblioteca crypto ou uuid. @done(23-02-08 12:05)
       
-        ☐ No arquivo authRouter, criar a rota do tipo POST para enviar os dados necessários para cadastrar um usuário
+        ✔ No arquivo authRouter, criar a rota do tipo POST para enviar os dados necessários para cadastrar um usuário @done(23-02-08 14:58)
       
         ☐ No front (cadastro.ejs) comentar a linha que importa o script de validação do CEP e os demais inputs que não são necessários para o cadastro. (Deixar somente os inputs de: Nome, email e senha)
       
