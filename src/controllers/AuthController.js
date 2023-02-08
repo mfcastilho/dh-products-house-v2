@@ -19,7 +19,7 @@ const AuthController = {
     const userExist = UserModel.findOne(email);
 
     if(userExist){
-      return res.render("auth/cadastro.ejs", { error:"Usuário já cadastrado"});
+      return res.render("auth/cadastro.ejs", { error:"Email já cadastrado"});
     }
 
     const hashPassword = bcrypt.hashSync(password, 10);

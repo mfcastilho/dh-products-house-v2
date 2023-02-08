@@ -41,6 +41,12 @@
                   <input type="email" class="form-control" name="email" id="email-register" placeholder="example@mail.com">
                 </div>
 
+                <% if(typeof error != "undefined"){ %>
+                    <div>
+                        <p style="color: red;"><%= error %> </p>
+                    </div>
+               <% } %> 
+
                 <!-- <div class="mb-3">
                     <label for="cep-register" class="form-label">Cep</label>
                     <input type="text" class="form-control" name="cep" id="cep-register" placeholder="86027000">
