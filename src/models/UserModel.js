@@ -13,8 +13,7 @@ const UserModel = {
     const users = database.users;
     const userFound = users.find(user => user.email == userEmail);
 
-    console.log("Found? "+userFound)
-    
+  
     return userFound;
   },
   create:(user)=>{

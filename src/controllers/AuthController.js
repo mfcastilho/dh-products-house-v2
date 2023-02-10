@@ -62,7 +62,6 @@ const AuthController = {
 
     req.session.userLogged = userFound;
 
-    console.log(req.session.userLogged);
     return res.redirect("/");
    
   }

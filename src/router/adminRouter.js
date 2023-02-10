@@ -8,6 +8,11 @@ const multer = require("multer");
 const validationAdminLoginMiddleware = require("../middlewares/validationAdminLoginMiddleware");
 const AdminController = require("../controllers/AdminController.js");
 
+const isLoginMiddleware = require("../middlewares/isLoginMiddleware");
+
+router.use(isLoginMiddleware);
+
+
 
 router.get("/admin/login", AdminController.showLogin);
 router.get("/admin/home", AdminController.showHome);

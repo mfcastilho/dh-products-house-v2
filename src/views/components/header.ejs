@@ -73,6 +73,10 @@
               </button>
           </a>
       </div>
+      
+      <% if(locals.userLogged && userLogged){ %>
+         <p>Seja bem vindo <%= userLogged.name  %></p>
+      <% } %>   
 
       <button id="menu-mobile--open" class="menu">
           <span class="material-symbols-outlined">
