@@ -1,16 +1,18 @@
 const express = require("express");
 const router = express.Router();
-const multer = require("multer");
-// const multer = require("multer");
+const upload = require("../middlewares/uploadMiddleware");
 
-
-
-const validationAdminLoginMiddleware = require("../middlewares/validationAdminLoginMiddleware");
 const AdminController = require("../controllers/AdminController.js");
 
 const isLoginMiddleware = require("../middlewares/isLoginMiddleware");
+const isAdminMiddleware = require("../middlewares/isAdminMiddleware");
+const validationAdminLoginMiddleware = require("../middlewares/validationAdminLoginMiddleware");
+
+
+
 
 router.use(isLoginMiddleware);
+router.use(isAdminMiddleware);
 
 
 
@@ -23,20 +25,7 @@ router.get("/admin/produtos/:id/editar", AdminController.showEditarProdutos);
 
 router.post("/admin/login", validationAdminLoginMiddleware, AdminController.login);
 
-// const upload = multer({dest:'src/public/images'});
-const storage = multer.diskStorage({
-  destination: (req, file, callback)=>{
-    callback(null, "src/public/images");
-  },
-  filename: (req, file, callback)=>{
-    
-    let persistentFileName = `${Date.now()}_product_${file.originalname}`;    
-    callback(null, persistentFileName);
-  }
-});
 
-
-const upload = multer({storage});
 
 router.post("/admin/produtos/cadastro", upload.single("image"), AdminController.storeProduct);
 

@@ -42,7 +42,7 @@ const AdminController = {
     }
     const users = dataBase.users;
 
-    console.log(req.body);
+    // console.log(req.body);
     const {email, password} = req.body;
 
 
@@ -51,7 +51,7 @@ const AdminController = {
     }
 
     const userFound = users.find(user=> user.email === email);
-
+    console.log(userFound)
 
     if(!userFound){
 
@@ -60,16 +60,19 @@ const AdminController = {
       return msg;
     }
 
-    const isValidPassword = userFound.password === password;
+    // const isValidPassword = userFound.password === password;
 
-    if(!isValidPassword){
-      console.log("Email ou senha inválida!");
-      return;
-    }
+    // if(!isValidPassword){
+    //   console.log("Email ou senha inválida!");
+    //   return;
+    // }
 
-    if(!userFound.isAdmin){
-      return res.redirect("/");
-    }
+    // if(!userFound.isAdmin){
+    //   return res.redirect("/");
+    // }
+    
+    
+    req.session.userLogged = userFound;
     
     return res.redirect("/admin/home");
     

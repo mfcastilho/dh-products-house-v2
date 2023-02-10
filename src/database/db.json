@@ -131,7 +131,7 @@
       "name": "Frederico Castilho ",
       "email": "fredericocastilho@hotmail.com",
       "password": "$2b$10$yTNE/0CPxqZ9aARCEuc04uflcivFFXzwMHcV5G7UKZu1jHo0zWZ7W",
-      "isAdmin": false
+      "isAdmin": true
     }
   ],
   "products": [
