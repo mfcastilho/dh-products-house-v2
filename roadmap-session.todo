@@ -25,8 +25,8 @@ Roadmap aula:
 
         ✔ Verificar se o usuário tem cadastrado no banco de dados, utilizando o model. @done(23-02-08 19:22)
 
-        ☐ Verificar se a senha que foi digitada no input está de acordo com a senha que foi cadastrada no banco de dados.
-
+        ✔ Verificar se a senha que foi digitada no input está de acordo com a senha que foi cadastrada no banco de dados. @done(23-02-09 22:25)
+✔ @done(23-02-09 22:25)
         ☐ Se o usuário não existir no banco de dados ou a senha estiver incorreta, renderizar a view de login novamente exibindo o seguinte erro 
         ☐ Se tudo estiver certo, redirecionar o usuário para a tela home
     

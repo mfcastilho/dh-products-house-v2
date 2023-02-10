@@ -47,6 +47,12 @@ const AuthController = {
       })
     }
 
+    console.log(userFound.password);
+    const checkPasword = bcrypt.compareSync(password, userFound.password);
+
+    
+   
+
    
   }
 }
