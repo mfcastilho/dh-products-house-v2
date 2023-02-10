@@ -16,6 +16,7 @@
 const express = require("express");
 const methodOverride = require("method-override");
 const cookies = require("cookie-parser");
+const session = require("express-session");
 
 
 // const multer = require("multer");
@@ -48,6 +49,12 @@ server.set("view engine", "ejs");
 
 //Setando para o express o caminho da pasta views
 server.set("views", path.resolve("src", "views"));
+
+server.use(session({
+  secret:"mysecretpaswword",
+  resave:false,
+  saveUninitialized:false
+}));
 
 server.use(cookies());
 

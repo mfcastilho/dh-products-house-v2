@@ -28,13 +28,13 @@ Roadmap aula:
         ✔ Verificar se a senha que foi digitada no input está de acordo com a senha que foi cadastrada no banco de dados. @done(23-02-09 22:25)
 ✔ @done(23-02-09 22:25)
         ✔ Se o usuário não existir no banco de dados ou a senha estiver incorreta, renderizar a view de login novamente exibindo o seguinte erro @done(23-02-09 22:48)
-        ☐ Se tudo estiver certo, redirecionar o usuário para a tela home
+        ✔ Se tudo estiver certo, redirecionar o usuário para a tela home @done(23-02-09 22:54)
     
   Atividade 3 - Exibindo o nome do usuário no Header:
     Nesta atividade iremos exibir o nome do usuário no header, para conseguir isso, iremos implementar a session, essa atividade será realizada junto com o professor:
    
-      ☐ Instalar o express-session
-      ☐ Salvar os dados do usuário na session
+      ✔ Instalar o express-session @done(23-02-09 22:58)
+      ✔ Salvar os dados do usuário na session @done(23-02-09 23:01)
       ☐ Criar o middleware isLogin, onde ele deve inserir os dados do usuário no objeto locals do response.
       ☐ Exibir o nome do usuário no header.
 

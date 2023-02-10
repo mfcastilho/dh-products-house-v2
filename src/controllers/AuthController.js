@@ -25,6 +25,7 @@ const AuthController = {
     const hashPassword = bcrypt.hashSync(password, 10);
     const newUser = {name, email, hashPassword};
     console.log(newUser);
+
     UserModel.create(newUser);
 
     return res.redirect("/login");
@@ -33,10 +34,7 @@ const AuthController = {
   login:(req, res)=>{
 
     const {email, password} = req.body;
-
     const userFound = UserModel.findOne(email);
-
-    console.log(userFound.password);
     const checkPasword = bcrypt.compareSync(password, userFound.password);
 
     if(!userFound){
@@ -62,6 +60,9 @@ const AuthController = {
       });
     }
 
+    req.session.userLogged = userFound;
+
+    console.log(req.session.userLogged);
     return res.redirect("/");
    
   }
