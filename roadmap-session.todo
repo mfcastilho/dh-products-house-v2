@@ -27,7 +27,7 @@ Roadmap aula:
 
         ✔ Verificar se a senha que foi digitada no input está de acordo com a senha que foi cadastrada no banco de dados. @done(23-02-09 22:25)
 ✔ @done(23-02-09 22:25)
-        ☐ Se o usuário não existir no banco de dados ou a senha estiver incorreta, renderizar a view de login novamente exibindo o seguinte erro 
+        ✔ Se o usuário não existir no banco de dados ou a senha estiver incorreta, renderizar a view de login novamente exibindo o seguinte erro @done(23-02-09 22:48)
         ☐ Se tudo estiver certo, redirecionar o usuário para a tela home
     
   Atividade 3 - Exibindo o nome do usuário no Header:

@@ -58,7 +58,7 @@
 
                 <div class="mb-3">
                   <label for="email-login" class="form-label">Email</label>
-                  <input type="email" class="form-control" name="email" id="email-login" placeholder="example@mail.com">
+                  <input type="email" class="form-control" name="email" id="email-login" placeholder="example@mail.com" value="<%= locals.old ? old.email : ""  %> ">
                 </div>
 
                 <% if(locals.errors && errors.email){ %>
@@ -71,6 +71,12 @@
                   <label for="password-login" class="form-label">Senha</label>
                   <input type="password" name="password" class="form-control" id="password-login" placeholder="********">
                 </div>
+
+                <% if(locals.errors && errors.password){ %>
+                    <div>
+                        <p style="color: red;"><%= errors.password.msg %> </p>
+                    </div>
+                <% } %> 
 
                 <div class="mb-3 form-check d-flex justify-content-between flex-wrap">
                     <div class="mb-2">

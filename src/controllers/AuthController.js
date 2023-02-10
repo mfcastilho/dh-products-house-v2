@@ -36,6 +36,9 @@ const AuthController = {
 
     const userFound = UserModel.findOne(email);
 
+    console.log(userFound.password);
+    const checkPasword = bcrypt.compareSync(password, userFound.password);
+
     if(!userFound){
       
       res.render("auth/login.ejs", {
@@ -47,11 +50,19 @@ const AuthController = {
       })
     }
 
-    console.log(userFound.password);
-    const checkPasword = bcrypt.compareSync(password, userFound.password);
 
-    
-   
+    if(!checkPasword){
+      
+      res.render("auth/login.ejs",{
+        errors:{
+          password:{
+            msg:"Senha inválida"
+          }
+        },
+        old:req.body
+      });
+    }
+
 
    
   }
