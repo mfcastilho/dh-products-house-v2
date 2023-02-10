@@ -41,7 +41,7 @@ const AuthController = {
 
     if(!userFound){
       
-      res.render("auth/login.ejs", {
+      return res.render("auth/login.ejs", {
         errors:{
           email:{
             msg:"Usuário não encontrado"
@@ -50,10 +50,9 @@ const AuthController = {
       })
     }
 
-
     if(!checkPasword){
       
-      res.render("auth/login.ejs",{
+      return res.render("auth/login.ejs",{
         errors:{
           password:{
             msg:"Senha inválida"
@@ -63,7 +62,7 @@ const AuthController = {
       });
     }
 
-
+    return res.redirect("/");
    
   }
 }
